@@ -4,6 +4,11 @@
     border: border-box;
 }
 
+body,
+html {
+    height: 100vh;
+}
+
 .navbar {
     height: 60px;
     background-color: #0f1111;
@@ -75,7 +80,7 @@
     width: 65px;
     text-align: center;
     height: 100%;
-    background: #f3f3f3;
+    background: #f1f1f1;
     border: none;
 }
 
@@ -167,15 +172,17 @@
 .shopsec {
     display: flex;
     justify-content: space-evenly;
-    background-color: #dfdfdf;
+    background-color: #f6f6f6;
     height: 100%;
 }
 
 .box {
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.43), inset -2px -2px 5px rgba(0, 0, 0, 0.43);
     margin-top: 10px;
-    border: 2px solid black;
-    width: 24%;
-    height: 250px;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    width: 22%;
+    height: 350px;
     background-color: #ffffff;
     padding: 15px;
 }
@@ -184,6 +191,26 @@
     background-image: url("images/box1_image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 250px;
+    height: 300px;
+}
 
+.shop-img2 {
+    background-image: url("images/box1_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.shop-img3 {
+    background-image: url("images/box1_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.shop-img4 {
+    background-image: url("images/box1_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
 }
